@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #fffcfc;
+    text-align: center;
+    overflow-x: hidden;
+}
+button,a {
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+input{
+    outline: none;
+    border: none;
+}
+button {
+    background: none;
+}
+button:hover {
+    background: #fff;
+    color: #000;
+}
+
+h1, h2, p, button, input,a {
+    text-transform: uppercase;
+}
+
+#topbar *{
+    display: inline-block;
+}
+
+#topbar {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 20px;
+}
+
+#menu {
+    color:yellow;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    float: left;
+}
+
+#menu:hover{
+    background:none;
+}
+
+
+#upper {
+    display: flex;
+}
+
+#sidemenu {
+    color: #fff;
+    list-style-type: none;
+    background-color: #242424;
+    text-align: left;
+    width: 200px;
+    top: 12%;
+    position: absolute;
+    margin-left: -200px;
+    padding: 10px 0;
+}
+
+#sidemenu i{
+    margin-right: 20px;
+}
+#sidemenu nav{
+    margin-left: 2em;
+    line-height: 3;
+}
+
+#bigpic {
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    height: 350px;
+}
+#bigpic h1{
+    font-size: 1.7em;
+    text-align: center;
+    padding: 2.5em 1em 0em 1em;
+}
+
+.side {
+    border-radius: 15px;
+    margin: 2em auto;
+    text-align: left;
+    background-color: #1c1c1c;
+    color: #fff;
+    line-height: 2.5;
+    padding: 2em;
+    max-width: 100%;
+}
+.side span {
+    visibility: hidden;
+}
+.side input {
+    font-size: 1.5em;
+    border-radius: 50px;
+    padding: 0.5em 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+}
+
+#arrows {
+    font-size: 30px;
+    grid-column: 2;
+}
+#arrows *:hover {
+    background: none;
+}
+
+#section-items {
+    background-color: #1c1c1c;
+    padding: 100px 0;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    margin-bottom: 3.5em;
+}
+#section-items .item{
+    margin: auto;
+    width: 20em;
+    height: 10em;
+}
+#section-items .itemname {
+    margin: auto;
+    width: 20em;
+    height: 4em;
+    margin-bottom: 3em;
+}
+
+.s {
+    margin: 20px;
+    width: 350px;
+    border-radius: 15px;
+    height: 300px;
+    color: #fff;
+    display: inline-grid;
+    background-color: #1c1c1c;
+    padding: 2em;
+    box-sizing: border-box;
+}
+.s i {
+    font-size: 2em;
+}
+footer {
+    margin-top: 5em;
+    padding: 2em 0;
+    line-height: 3;
+    background-color: #1c1c1c;
+    color: #fff;
+}
+i, #arrows *{
+    color:yellow;
+}
+#nav {
+    float: right;
+}
+#nav *{
+    margin: 0 8px;
+    font-size: 1.2em;
+    padding: 10px;
+}
+#nav *:hover {
+    background-color: #fff;
+}
+@media only screen and (max-width: 1024px){
+    #section-items {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    #arrows  {
+        grid-column: 1;
+    }
+
+}
+@media only screen and (max-width: 680px){
+    #section-items {
+        grid-template-columns: 1fr;
+    }
+    
+}
+@media only screen and (max-width: 620px){
+    #topbar {
+        display: grid;
+    }
+    #topbar *{
+        padding: 10px 20px;
+    }
+    #menu {
+        position: absolute;
+        float: left;
+        margin-top: 5px;
+    }
+    #bigpic {
+        font-size: 12px;
+        padding: 40px;
+        background-size: 200%;
+        padding-top: 0px;
+    }
+    #nav {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:445px){
+    .side *{
+        width: 80vw;
+    }
+    .side *{
+        line-height: 2;
+        text-align: center;
+        padding: 0px;
+        font-size: 20px;
+    }
+    .side i{
+        padding: 0;
+    }
+
+    #bigpic h1{
+        padding: 0;
+    }
+    .item, .itemname {
+        max-width: 80%;
+    }
+    #nav {
+        display: none;
+    }
+    .s {
+        width:95%;
+        margin-right:0;
+        margin-left:0;
+    }
+    .side input{
+        font-size:20px;
+    }
+}
+@media only screen and (min-width:680px){
+    #arrows {
+        grid-column: 2;
+    }
+}
+

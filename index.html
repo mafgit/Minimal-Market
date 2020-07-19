@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market</title>
+</head>
+<body>
+    <div id="topbar">
+        <button id="menu" onclick="showSideMenu();" onchange="showSideMenu()" class="fa fa-bars"></button>
+        <h1 id="heading">MARKET</h1>
+        <nav id="nav">
+            <button>Home</button>
+            <button onclick="scrollService()">Services</button>
+            <button onclick="scrollContact()">Contact</button>
+        </nav>
+    </div>
+    <div id="sidemenu">
+        <nav>
+            <li><a><i class="fa fa-home"></i>Home</a></li>
+            <li onclick="scrollService()"><a><i class="fa fa-briefcase"></i>Services</a></li>
+            <li onclick="scrollContact()"><a><i class="fa fa-phone"></i>Contact</a></li>
+        </nav>
+    </div>
+    <div id="bigpic">
+        <h1>Use this site to purchase products sitting at your home.</h1>
+    </div>
+    <section id="upper">
+    <div class="side">
+        <h2><i class="fa fa-search"></i> <span>a</span> Find whatever you need.</h2>
+        <h2><i class="fa fa-tags"></i> <span>a</span> At a low price.</h2>
+        <h2><i class="fa fa-chevron-down"></i> <span>a</span> Scroll down.</h2>
+        <input type="text" placeholder="Search">
+    </div>
+    
+    </section>
+    <section id="section-items">
+        <div>
+            <div class="item" style="background-color: yellow;"></div>
+            <div class="itemname" style="background-color: gold;"></div>
+        </div>
+        <div>
+            <div class="item" style="background-color: yellow;"></div>
+            <div class="itemname" style="background-color: gold;"></div>
+        </div>
+        <div>
+            <div class="item" style="background-color: yellow;"></div>
+            <div class="itemname" style="background-color: gold;"></div>
+        </div>
+        <div>
+            <div class="item" style="background-color: yellow;"></div>
+            <div class="itemname" style="background-color: gold;"></div>
+        </div>
+        <div>
+            <div class="item" style="background-color: yellow;"></div>
+            <div class="itemname" style="background-color: gold;"></div>
+        </div>
+        <div>
+            <div class="item" style="background-color: yellow;"></div>
+            <div class="itemname" style="background-color: gold;"></div>
+        </div>
+        <div id="arrows"><button onclick="arrowLeft()" class="leftArrow fa fa-chevron-left"></button> <button onclick="arrowRight()" class="rightArrow fa fa-chevron-right"></button></div>
+        
+    </section>
+    <section id="services">
+        <h1 style="font-size: 30px;">Services</h1>
+        <div class="s s1">
+            <i class="fa fa-motorcycle"></i>
+            <h2>Fast Delivery</h2>
+            <p>It usually takes less than a week for us to deliver the item.</p>
+        </div>
+        <div class="s s2">
+            <i class="fa fa-comments"></i>
+            <h2>Chat with  us</h2>
+            <p>Our professionals are available if you have any query.</p>
+        </div>
+        <div class="s s3">
+            <i class="fa fa-credit-card"></i>
+            <h2>Refund available</h2>
+            <p>Although we guarantee that our quality would be fabulous but still you can refund within 14 days.</p>
+        </div>
+    </section>
+    <footer id="footer">
+        <h1>Contact Us</h1>
+        <p>(643) 573-0562</p>
+        <p>market@market.com</p>
+        <p>6th Street, Funland, Wakanda</p>
+        <h3 style="color: yellow;">maf &copy; 2020</h3>
+    </footer>
+ 
+    <script src="main.js"></script>
+</body>
+</html>
