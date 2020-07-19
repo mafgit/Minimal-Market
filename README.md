@@ -2,4 +2,4 @@
 - A frontend market user interface.
 - Using HTML, CSS, JAVASCRIPT
 # Overview
-![alt text](https://dl.dropbox.com/s/1qlzmdld77fkmxv/mafgallery.PNG?dl=0)
+![alt text](https://dl.dropbox.com/s/qrrt6y1cb4ovhvd/minimal.PNG?dl=0)
