@@ -82,6 +82,7 @@ h1, h2, p, button, input,a {
 }
 
 #bigpic {
+    background-image: url(https://www.wallpaperflare.com/static/793/203/684/sun-sunset-minimalism-digital-art-wallpaper-preview.jpg)
     background-position: center;
     background-size: cover;
     color: #fff;
